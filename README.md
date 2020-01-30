@@ -8,3 +8,13 @@ Flappo is a Flappy Bird remake implemented in Lua, using [Love](https://love2d.o
 ## Screenshot
 
 ![Flappo](screenshot.png)
+
+## Running the program (Windows)
+
+Typically I install Love to one of my tools directories, create a LOVE_HOME environment variable, and set that environment variable to the Love installation directory.
+
+Then I navigate to the project folder and setup a batch file containing the following command:
+
+```
+"%LOVE_HOME:\=/%/love.exe" --console "%cd:\=/%"
+```

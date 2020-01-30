@@ -1,5 +1,7 @@
 --[[
 Flappy Bird remake
+]]
+
 -- push is a library that allows us to draw our game at a
 -- virtual resolution
 push = require 'push'
